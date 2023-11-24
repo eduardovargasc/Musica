@@ -26,12 +26,15 @@
     luchador profesional y actor puertorriqueño.Su estilo de música es generalmente definido como reguetón y 
     trap latino, pero también ha interpretado varios géneros como kizomba, norteño, entre otros. 
     Se caracteriza por su entonación grave y su estilo de vestir.
-    Quieres conocer sus albums?
+    Quieres conocer lo albumes de Bad Bunny?
     </template>
   </category>
 
    <category>
     <pattern>Si</pattern>
+    <that>
+    QUIERES CONOCER LO ALBUMES DE BAD BUNNY
+    </that>
     <template>Sus mejores albums son: 
     Un Verano sin ti.
     YHLQMDLG
@@ -41,7 +44,29 @@
     Quieres concer de algun otro artista? </template>
   </category>
   
+  <category>
+    <pattern>Mora</pattern>
+    <template>Gabriel Armando Mora Quintero (Bayamón, 18 de abril de 1996), 
+    conocido por su nombre artístico Mora, es un cantante, compositor y productor discográfico puertorriqueño.
+    Es reconocido por producir, componer y colaborar en sencillos como «Una Vez» o recientemente «Hibiki» 
+    junto a Bad Bunny, «512» junto a Jhayco, «La Inocente» junto a Feid, 
+    «Volando Remix» junto a Bad Bunny y Sech, «Pensabas» junto a Eladio Carrión, Brray y Joyce Santana, 
+    Memorias y «Tuyo».Quieres conocer lo albumes de Mora?
+    </template>
+  </category>
   
+  <category>
+    <pattern>Si</pattern>
+    <that>
+    ES RECONOCIDO POR PRODUCIR, COMPONER Y COLABORAR EN SENCILLOS COMO «UNA VEZ» O RECIENTEMENTE «HIBIKI» JUNTO A BAD BUNNY, «512» JUNTO A JHAYCO, «LA INOCENTE» JUNTO A FEID, «VOLANDO REMIX» JUNTO A BAD BUNNY Y SECH, «PENSABAS» JUNTO A ELADIO CARRIÓN, BRRAY Y JOYCE SANTANA, MEMORIAS Y «TUYO».QUIERES CONOCER LO ALBUMES DE MORA
+    </that>
+    <template>Sus mejores albums son: 
+    Microdosis
+    Primer dia de Clases
+    Paraiso
+    Estrella
+    Quieres concer de algun otro artista? </template>
+  </category>
   
     <category>
         <pattern>No</pattern>
