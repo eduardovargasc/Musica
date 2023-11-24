@@ -5,46 +5,49 @@
     <pattern>HOLA</pattern>
     <template>
         <random>
-            <li>Bienvenid@. ¿Quieres saber cuáles son las entradas o vamos a la sopa?</li>
-            <li>Buen día ¿toma entrada o empieza con la sopa?</li>
-            <li>Sea bienvenid@. ¿le digo las entradas o pasamos a la sopa?</li>
-            <li>Muy buen día ¿quiere saber las entradas o elige sopa de una vez?</li>
+            <li>Bienvenid@. Que aritista te gustaria te recomendara?</li>
+            <li>Buen día Dime un Artista!</li>
+            <li>Welcome. que artista te gusta?</li>
         </random>
     </template>
   </category>
   
-  <category>
-    <pattern>ENTRADAS</pattern>
-    <template>Tenemos palitos de apio, ensalada o fruta picada</template>
-  </category>
-  
-  <category>
-    <pattern>* ENTRADAS</pattern>
-    <template>
-          <srai>ENTRADAS</srai>
-    </template>
-  </category>
-  
     <category>
-    <pattern>* ENTRADAS *</pattern>
+    <pattern>*</pattern>
     <template>
-          <srai>ENTRADAS</srai>
+          <srai>HOLA</srai>
     </template>
   </category>
-  
+
+  <category>
+    <pattern>Bad Bunny</pattern>
+    <template>Historia : Benito Antonio Martínez Ocasio (Almirante Sur, Vega Baja; 10 de marzo de 1994), 
+    conocido artísticamente como Bad Bunny o El Conejo Malo, es un cantante, compositor, productor musical, 
+    luchador profesional y actor puertorriqueño.Su estilo de música es generalmente definido como reguetón y 
+    trap latino, pero también ha interpretado varios géneros como kizomba, norteño, entre otros. 
+    Se caracteriza por su entonación grave y su estilo de vestir.
+    Quieres conocer sus albums?
+    </template>
+  </category>
+
    <category>
-    <pattern>SOPA</pattern>
-    <template>¿Quieres sopa del día o consomé?</template>
+    <pattern>Si</pattern>
+    <template>Sus mejores albums son: 
+    Un Verano sin ti.
+    YHLQMDLG
+    X100pre
+    Nadie Sabe Lo Que Va A Pasar
+    El ultimo Tour Del Mundo
+    Quieres concer de algun otro artista? </template>
   </category>
+  
+  
   
     <category>
-        <pattern>SOPA DEL DÍA</pattern>
-        <template>Excelente elección. ¿Le traigo tortillas o pan?</template>
+        <pattern>No</pattern>
+        <template>Excelente elección. adios</template>
   </category>
   
-  <category>
-      <pattern> LA * ESTÁ FRÍA</pattern>
-      <template>Una enorme disculpa, llevo su <star/> a calentar</template>
-  </category>
+
   
 </aiml>
